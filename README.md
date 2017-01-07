@@ -5,17 +5,21 @@ app to embed [shibboleth embedded discovery service (eds)][1] into a django proj
 
 1. Install the app *TODO* (copy manually to python path or whatelse, no installer yet)
 2. add it to `INSTALLED_APPS`:
+
     ```python
     INSTALLED_APPS += (
         'shibboleth_eds',
     )
     ```
+    
 3. Add it to `urls.py`:
+
      ```python
     urlpatterns += [
         url(r'^ds/', include('shibboleth_eds.urls', namespace='shibboleth_eds')),
     ]
     ```
+    
 4. Run `manage.py collectstatic`.
 
 # configure
