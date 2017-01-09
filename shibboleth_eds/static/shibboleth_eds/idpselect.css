@@ -64,6 +64,14 @@ img.IdPSelectIdPImg {
    width:auto;
 }
 
+div.IdPSelectautoDispatchTile {
+    display: block;
+}
+
+div.IdPSelectautoDispatchArea {
+    margin-top: 30px ;
+}
+
 div.IdPSelectPreferredIdPButton img
 {
     display: block;    /* Block display to allow auto centring */
