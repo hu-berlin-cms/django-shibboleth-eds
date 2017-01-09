@@ -1,0 +1,4 @@
+include LICENSE
+include README.md
+recursive-include shibboleth_eds/templates *
+recursive-include shibboleth_eds/static *

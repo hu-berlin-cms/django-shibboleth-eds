@@ -3,7 +3,7 @@ app to embed [shibboleth embedded discovery service (eds)][1] into a django proj
 
 # install
 
-1. Install the app *TODO* (copy manually to python path or whatelse, no installer yet)
+1. Install the app (i.e. by using pip)
 2. add it to `INSTALLED_APPS`:
 
     ```python
