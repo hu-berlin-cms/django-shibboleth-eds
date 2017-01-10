@@ -16,5 +16,5 @@ def config(request):
         'preferredIdP': mark_safe(getattr(settings, 'SHIBBOLETH_EDS_PREFERRED_IDPS', 'null')),
         'hiddenIdPs': mark_safe(getattr(settings, 'SHIBBOLETH_EDS_HIDDEN_IDPS', 'null')),
         'showListFirst': getattr(settings, 'SHIBBOLETH_EDS_SHOW_LIST_FIRST', 'false'),
-        'autoFollowCookie': getattr(settings, 'SHIBBOLETH_EDS_FOLLOW_COOKIE', 'null'),
+        'autoFollowCookie': mark_safe(getattr(settings, 'SHIBBOLETH_EDS_FOLLOW_COOKIE', 'null')),
     }, content_type='application/javascript')
