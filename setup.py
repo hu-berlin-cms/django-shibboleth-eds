@@ -18,7 +18,7 @@ setup(
     license='Apache 2.0',
     description='Django app to embed Shibboleth Embedded Discovery Service into your Django project.',
     long_description=README,
-    url='https://www.example.com/',
+    url='https://github.com/hu-berlin-cms/django-shibboleth-eds',
     author='Enno Gröper',
     author_email='enno.groeper@cms.hu-berlin.de',
     classifiers=[
