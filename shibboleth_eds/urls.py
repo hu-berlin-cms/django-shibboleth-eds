@@ -1,8 +1,8 @@
-from django.conf.urls import patterns, url
+from django.conf.urls import url
 
 from views import discovery, config
 
-urlpatterns = patterns('',
+urlpatterns = [
     url(r'^$', discovery, name='ds'),
     url(r'^idpselect_config.js$', config, name='config'),
-)
+]
